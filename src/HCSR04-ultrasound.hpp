@@ -2,8 +2,8 @@
 
 #include <Arduino.h>
 
-const int pin_TRIGGER = 18;
-const int pin_ECHO = 19;
+#define pin_TRIGGER 18
+#define pin_ECHO 19
 
 
 //

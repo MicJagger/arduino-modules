@@ -3,7 +3,7 @@
 
 #include <Arduino.h>
 
-const int pin_DATA = 15;
+#define pin_DATA 15
 
 int counter = 0;
 // should roughly translate to milliseconds that movement must be detected for

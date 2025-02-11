@@ -5,7 +5,7 @@
 
 #include <Arduino.h>
 
-//const int pin_DATA = 15;
+#define pin_DATA 15
 
 bool Detected();
 

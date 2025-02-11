@@ -14,8 +14,7 @@ bool Detected();
 
 //
 
-void setup() {
-  Serial.begin(115200);
+void Setup() {
   Serial.println("Setup sequence initialized");
 
   pinMode(pin_DATA, INPUT);
@@ -23,7 +22,7 @@ void setup() {
   Serial.println("Booted and Setup Successfully");
 }
 
-void loop() {
+void Loop() {
   Serial.println(Detected());
   delay(1);
 }

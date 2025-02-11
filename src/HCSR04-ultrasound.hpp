@@ -8,8 +8,7 @@ const int pin_ECHO = 19;
 
 //
 
-void setup() {
-  Serial.begin(115200);
+void Setup() {
   Serial.println("Setup sequence initialized");
 
   pinMode(pin_TRIGGER, OUTPUT);
@@ -18,7 +17,7 @@ void setup() {
   Serial.println("Booted and Setup Successfully");
 }
 
-void loop() {
+void Loop() {
   // trigger the pin
   digitalWrite(pin_TRIGGER, LOW);
 	delayMicroseconds(2);

@@ -1,9 +1,9 @@
-// Simple Ultrasound Range Finder for HC-SR04 Ultrasonic Sensor
+// HC-SR04 Ultrasonic Sensor - simple ultrasound range finder
 
 #include <Arduino.h>
 
-const int pin_TRIGGER = 32;
-const int pin_ECHO = 33;
+const int pin_TRIGGER = 18;
+const int pin_ECHO = 19;
 
 
 //
@@ -20,10 +20,10 @@ void setup() {
 
 void loop() {
   // trigger the pin
-  digitalWrite(pin_TRIGGER, LOW);  
-	delayMicroseconds(2);  
-	digitalWrite(pin_TRIGGER, HIGH);  
-	delayMicroseconds(10);  
+  digitalWrite(pin_TRIGGER, LOW);
+	delayMicroseconds(2);
+	digitalWrite(pin_TRIGGER, HIGH);
+	delayMicroseconds(10);
 	digitalWrite(pin_TRIGGER, LOW);
 
   // wait for response

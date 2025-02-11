@@ -1,6 +1,7 @@
-// Simple Binary Version
-// For LD2410C
-// "Tested" on https://www.amazon.com/EC-Buying-HLK-LD2410-Presence-Millimeter/dp/B0BXDLHHH2/ref=pd_ci_mcx_mh_mcx_views_0_title
+// LD2410C - doppler radar with more advanced serial data
+// Used with https://www.amazon.com/EC-Buying-HLK-LD2410-Presence-Millimeter/dp/B0BXDLHHH2/ref=pd_ci_mcx_mh_mcx_views_0_title
+
+// WIP
 
 #include <Arduino.h>
 

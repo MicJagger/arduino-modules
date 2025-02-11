@@ -1,4 +1,4 @@
-// Simple Binary Version
+// doppler radar that outputs simply binary for movement detection
 // For https://www.amazon.com/CQRobot-10-525GHz-Microwave-Compatible-Measurement/dp/B089NKGWQQ/ref=pd_ci_mcx_mh_mcx_views_17_title
 
 #include <Arduino.h>

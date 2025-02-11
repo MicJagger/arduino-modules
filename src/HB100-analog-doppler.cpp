@@ -1,5 +1,7 @@
-// Analog Doppler-Radar Detector for HB100
-// "Tested" on https://www.amazon.com/PAMEENCOS-HB100-Microwave-Wireless-10-525GHz/dp/B0CNQYM2F1/ref=pd_ci_mcx_mh_mcx_views_1_title
+// HB100 - doppler radar with analog output
+// Used with https://www.amazon.com/PAMEENCOS-HB100-Microwave-Wireless-10-525GHz/dp/B0CNQYM2F1/ref=pd_ci_mcx_mh_mcx_views_1_title
+
+// WIP
 
 #include <Arduino.h>
 

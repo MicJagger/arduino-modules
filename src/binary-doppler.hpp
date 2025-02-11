@@ -15,6 +15,7 @@ bool Detected();
 //
 
 void Setup() {
+  Serial.begin(115200);
   Serial.println("Setup sequence initialized");
 
   pinMode(pin_DATA, INPUT);

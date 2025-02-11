@@ -6,11 +6,11 @@
 // their setup() and loop() has been renamed to Setup() and Loop()
 // that way you can quickly change this #include to the code you would like to load
 #include "HCSR04-ultrasound.hpp"
+// also ensure you change the monitor_speed in platformio.ini if necessary
 
 // "do not touch these"
 
 void setup() {
-  Serial.begin(115200);
   Setup();
 }
 

@@ -5,17 +5,18 @@
 
 #include <Arduino.h>
 
-#define pin_DATA 15
+#define pin_ANALOG
 
-bool Detected();
+float Velocity();
 
 
 //
 
 void Setup() {
+  Serial.begin(115200);
   Serial.println("Setup sequence initialized");
 
-  //pinMode(pin_DATA, INPUT);
+  //pinMode(pin_ANALOG, INPUT);
 
   Serial.println("Booted and Setup Successfully");
 }
@@ -28,6 +29,6 @@ void Loop() {
 
 //
 
-bool Detected() {
+float Velocity() {
   return false;
 }

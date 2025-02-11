@@ -1,13 +1,12 @@
-// Simple Binary Version
-// For LD2410C
-// "Tested" on https://www.amazon.com/EC-Buying-HLK-LD2410-Presence-Millimeter/dp/B0BXDLHHH2/ref=pd_ci_mcx_mh_mcx_views_0_title
+// Analog Doppler-Radar Detector for HB100
+// "Tested" on https://www.amazon.com/PAMEENCOS-HB100-Microwave-Wireless-10-525GHz/dp/B0CNQYM2F1/ref=pd_ci_mcx_mh_mcx_views_1_title
 
 #include <Arduino.h>
 
 //const int pin_DATA = 15;
 
-
 bool Detected();
+
 
 //
 

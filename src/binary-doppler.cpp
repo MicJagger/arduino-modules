@@ -9,8 +9,8 @@ int counter = 0;
 // should roughly translate to milliseconds that movement must be detected for
 int sensitivityLevel = 4;
 
-
 bool Detected();
+
 
 //
 

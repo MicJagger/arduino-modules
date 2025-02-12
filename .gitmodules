@@ -1,0 +1,3 @@
+[submodule "lib/ld2410"]
+	path = lib/ld2410
+	url = https://github.com/ncmreynolds/ld2410.git

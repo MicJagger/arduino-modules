@@ -50,6 +50,15 @@ void Setup() {
 
     }
   }
+
+  Serial.println(F("Changing Sensitivity Settings"));
+  radar.setMaxValues(8, 8, loopTime);
+  radar.setGateSensitivityThreshold(1, 100, 100);
+
+  Serial.println(F("Settings Applied, Restarting Radar"));
+  radar.requestRestart();
+
+  Serial.println(F("Setup Sequence Complete"));
 }
 
 

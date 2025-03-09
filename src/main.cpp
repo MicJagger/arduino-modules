@@ -1,11 +1,9 @@
-// HC-SR04 Ultrasonic Sensor - simple ultrasound range finder
-
 #include <Arduino.h>
 
 // just set the include file here to the file that you would like
 // their setup() and loop() has been renamed to Setup() and Loop()
 // that way you can quickly change this #include to the code you would like to load
-#include "GY521-MPU6050-imu.hpp"
+#include "vibration-motor.hpp"
 // also ensure you change the monitor_speed in platformio.ini if necessary
 
 // "do not touch these"

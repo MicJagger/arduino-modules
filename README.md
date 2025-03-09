@@ -1,7 +1,7 @@
 # esp32-modules
 ESP32 code for interacting with various modules \
 Most if not all of this should work on an Arduino as well \
-This is not meant to be anywhere near complete, but rather an educational repo for a reference on how to use many common modules
+This is not meant to be anywhere near complete, but rather an educational repo for a reference on how to use many common modules, or features like tasking for multithreading
 
 ## Important
 Ensure that you fill in the #include "___.hpp" in main.cpp to the code that you would like to run \

@@ -25,7 +25,7 @@ inline int CheckMovingTarget();
 
 void Setup() {
   Serial.begin(115200);
-  Serial.println(F("Setup sequence initialized"));
+  Serial.println("Setup Sequence Initialized");
 
   //radar.debug(Serial); // Show radar debug on monitor
   SERIAL_RADAR.begin(256000, SERIAL_8N1, pin_RADAR_Tx, pin_RADAR_Rx);

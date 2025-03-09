@@ -28,7 +28,7 @@ double Frequency_pulseIn();
 
 void Setup() {
   Serial.begin(115200);
-  Serial.println("Setup sequence initialized");
+  Serial.println("Setup Sequence Initialized");
 
   pinMode(pin_INPUT, INPUT);
 

@@ -11,7 +11,7 @@ void Task1(void* parameter);
 
 void Setup() {
   Serial.begin(115200);
-  Serial.println("Setup sequence initialized");
+  Serial.println("Setup Sequence Initialized");
 
   // creates a task that is pinned to a chosen core, and runs independently
   xTaskCreatePinnedToCore(
